@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Studio: Code Breaker 🛠️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container" id="game-card">
+        <h1>Roblox Studio Breaker 🛠️</h1>
+        
+        <div class="stats">
+            <div class="score-box">Racha: <span id="streak">0</span>/10 🔥</div>
+            <div class="lives-box">Servidor: <span id="lives">6</span> ❤️</div>
+        </div>
+
+        <!-- Consola de estado estilo Roblox Studio -->
+        <div class="roblox-console" id="hangman-visual">🟢 Server Status: Running smoothly...</div>
+
+        <!-- Espacios de la palabra secreta -->
+        <div class="word-display" id="word-target">_ _ _ _</div>
+        
+        <div class="hint-box" id="hint-target">Pista...</div>
+
+        <!-- Teclado virtual -->
+        <div class="keyboard" id="keyboard-container"></div>
+
+        <div class="message" id="message-target"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
